@@ -1,0 +1,49 @@
+.side {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 170px;
+  position: fixed;
+  padding: 5px 20px;
+}
+
+.side .div {
+  border: "2px #f2f3 solid";
+}
+.side span {
+  color: #bbbbbb;
+  font-size: 20px;
+}
+.side h1 {
+  color: #bbbbbb;
+}
+.side .links:hover span {
+  color: #fff;
+}
+.side .links:hover svg {
+  color: #fff;
+}
+.side .links svg {
+  color: #bbb;
+}
+
+.side .contentLinks {
+
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.side .links {
+  display: flex;
+  gap: 10px;
+}
+
+.side .rodape{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+}

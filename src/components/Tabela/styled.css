@@ -1,0 +1,26 @@
+.tabela {
+  width: 100%;
+  margin-top: 20px;
+}
+table {
+  border-spacing: 0 3px;
+  width: 100%;
+  margin: 0 auto;
+}
+tr {
+  text-align: justify;
+  padding: 16px 0px;
+}
+tr:nth-child(even){
+  background-color: #ccc;
+}
+td {
+  padding: 0.8em;
+  margin: 0;
+  border: none;
+  
+}
+th {
+  color: #888;
+  background: none;
+}
